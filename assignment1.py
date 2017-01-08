@@ -10,11 +10,6 @@ from sklearn.linear_model import LogisticRegression
 from six.moves.urllib.request import urlretrieve
 from six.moves import cPickle as pickle
 
-#from IPython import get_ipython
-### Config the matplotlib backend as plotting inline in IPython
-#ipython_shell = get_ipython()
-#ipython_shell.magic('matplotlib inline')
-
 url = 'http://commondatastorage.googleapis.com/books1000/'
 last_percent_reported = None
 
